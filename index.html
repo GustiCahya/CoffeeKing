@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee King</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <!-- M icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- M css -->
+    <link rel="stylesheet" href="library/materialize.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">CafeKing</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onClick="toggleModal()">Home</a></li>
+                    <li><a href="#" onClick="toggleModal()">About Us</a></li>
+                    <li><a href="#" onClick="toggleModal()">Coffee</a></li>
+                    <li><a href="#" onClick="toggleModal()">Surprise!</a></li>
+                    <li><a href="#" onClick="toggleModal()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Surprise!</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </section>
+
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Link desabled</h4>
+                <p id="info-modal-content">Sorry! All links are disabled right now.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- M js -->
+    <script src="library/materialize.min.js"></script>
+    <!-- custom js -->
+    <script src="js/loader.js"></script>
+</body>
+</html>
