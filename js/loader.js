@@ -10,7 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     M.Parallax.init($('.parallax'))
     M.Sidenav.init($('.sidenav'))
     M.Slider.init($('.slider'), {
-        full_width: true
+        fullWidth: true
+    })
+    M.Carousel.init($('.myreviews'), {
+        numVisible: 7,
+        shift: 55,
+        padding: 55
     })
 })
 

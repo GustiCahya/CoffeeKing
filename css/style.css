@@ -1,3 +1,21 @@
-.nav-wrapper{
+.nav-fixed{
     background-color: #6f4037;
+}
+
+.slider .indicators .indicator-item.active{
+    background: #6f4037;
+}
+
+.move{
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.parallax-container{
+    min-height: 280px;
+    height: auto;
+}
+
+.icon-coffee{
+    color: #6f4037;
 }
